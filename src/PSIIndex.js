@@ -43,10 +43,9 @@ export default{
         for(let key in this.results){
             this.chartdata.datasets[0].data.push(this.results[key])
             this.chartdata.labels.push(key+'')
-            
         }
-        this.renderChart(this.chartdata,this.options)
-            
+
+        this.renderChart(this.chartdata,this.options);
     })
     
     }
@@ -56,9 +55,6 @@ export default{
         //console.log('Do I come here')
         this.fetchData()
         
-     }
-
-    
-    
+     }   
     
 }
