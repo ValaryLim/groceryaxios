@@ -27,7 +27,7 @@ export default {
         axiosExample,
         PSIIndex,
         covid19,
-        transportData
+        transportData,
     }
     
 }
