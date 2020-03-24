@@ -14,16 +14,10 @@ export default{
                 data:[],
                 //backgroundColor:['aqua','lightgreen','red','orange'],
                 borderWidth:0.5,
-                borderColor:"orange",
-                backgroundColor:'orange',
+                borderColor:"red",
+                backgroundColor:'red',
                 fill:false
             },
-            {
-                label: 'Active Cases',
-                data: [],
-                backgroundColor: "blue",
-                borderColor: "blue"
-            }
           ]
           
         },
